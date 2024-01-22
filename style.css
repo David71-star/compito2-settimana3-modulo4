@@ -1,0 +1,76 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0%;
+
+}
+nav{
+    background-color: rgb(70,11,11);
+    color: white;
+    padding-inline: 2%;
+    padding-block: 1.5%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 1px solid yellow;
+    border-inline: 1px solid yellow;
+    margin-top: 1%;
+}
+.all-user p:first-of-type{
+    margin-top: 0%;
+    padding-top: 16px;
+}
+.all-user p span{
+    font-weight: bolder;
+}
+.card{
+    border: 1px solid yellow;
+    background: black;
+background: linear-gradient(0deg, black 13%, rgba(255,255,255,1) 100%);
+}
+
+.card ul li{
+background-color: transparent;
+color: yellowgreen;
+}
+
+.card:hover{
+    animation: bounce-top 0.5s 0.5s;
+    cursor: pointer;
+}
+  @keyframes bounce-top {
+    0% {
+              transform: translateY(-45px);
+      animation-timing-function: ease-in;
+    }
+    24% {
+    }
+    40% {
+              transform: translateY(-24px);
+      animation-timing-function: ease-in;
+    }
+    65% {
+              transform: translateY(-12px);
+      animation-timing-function: ease-in;
+    }
+    82% {
+              transform: translateY(-6px);
+      animation-timing-function: ease-in;
+    }
+    93% {
+              transform: translateY(-4px);
+      animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+              transform: translateY(0px);
+      animation-timing-function: ease-out;
+    }
+    100% {
+              transform: translateY(0px);
+      animation-timing-function: ease-out;
+    }
+  }
+  
